@@ -8,8 +8,8 @@
 <body>
  <h1>Środowisko programisty</h1>
  <main>
-	 <section id="1">
-	 <p>Piękna obramowana tabela</p>
+	 <section>
+	 <p class="p1">Piękna obramowana tabela</p>
  <article id="1">
   <table>
 	 <tr>
@@ -32,6 +32,9 @@
  </article>
  <article id="2">
  Artykuł nr 2.
+ <p id="wynik"></p>
+ <button type="button"onclick="document.getElementById('wynik').innerHTML = 'https://github.com/Filipsonek/html1'">
+ Kliknij mnie!</button>
  <p id="data"></p>
 <script>
  document.getElementById("data").innerHTML = Date();
